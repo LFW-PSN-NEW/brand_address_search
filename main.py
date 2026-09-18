@@ -193,7 +193,7 @@ class BrandAddressExtractor:
         self.gemini_api_key = os.environ["GEMINI_API_KEY"]
         prompt_raw = os.environ["address-prompt"]
         schema_raw = os.environ["address-schema"]
-        self.model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+        self.model = "gemini-3.8-flash"
         self.limit = int(os.environ.get("LIMIT", "0"))
         self.force = _env_bool("FORCE")
         self.dry_run = _env_bool("DRY_RUN")

@@ -70,7 +70,6 @@ The output table must already exist. This service does not create tables.
 
 | Variable | Default |
 |---|---|
-| `GEMINI_MODEL` | `gemini-2.5-flash` |
 | `LIMIT` | `0` (all remaining brands) |
 | `FORCE` | false |
 | `DRY_RUN` | false |
